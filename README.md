@@ -71,13 +71,14 @@ endmodule
 
 ## RTL Schematic:
 ![RTL(Half subtractor)](https://github.com/Anuranjana23/Subtractor/assets/134050204/2c6ad73f-e06e-448d-ac89-a534bb531592)
+![RTL(Full subtractor)](https://github.com/Anuranjana23/Subtractor/assets/134050204/3fd5331e-6b67-4c75-90e2-0b57d117b2c7)
 
 
 
 
 ## Timing Diagram:
 ![Timing diagram(Half subtractor)](https://github.com/Anuranjana23/Subtractor/assets/134050204/8746c88c-252b-4097-be71-49676bbe68f4)
-![Timing diagram(Full subtractor)](https://github.com/Anuranjana23/Subtractor/assets/134050204/fa896439-c640-4df0-82a4-eb208f4a706c)
+![Timing diagram(Full subtractor)](https://github.com/Anuranjana23/Subtractor/assets/134050204/b3902a22-bbdc-4b86-a2eb-145e9bb7edc6)
 
 ## Result:
 Thus the half subtractor and full subtractor circuits are designed and the truth tables are verified using Verilog HDL.
