@@ -51,7 +51,7 @@ output diff,borrow;
 wire adash;
 xor(diff,a,b);
 not(adash,a);
-and(borrow,a,b);
+and(borrow,adash,b);
 endmodule
 
 2.Full subtractor
@@ -70,15 +70,16 @@ endmodule
 ```
 
 ## RTL Schematic:
-![RTL(Half subtractor)](https://github.com/Anuranjana23/Subtractor/assets/134050204/2c6ad73f-e06e-448d-ac89-a534bb531592)
-![RTL(Full subtractor)](https://github.com/Anuranjana23/Subtractor/assets/134050204/3fd5331e-6b67-4c75-90e2-0b57d117b2c7)
+![RTL(Half subtractor)](https://github.com/Anuranjana23/Subtractor/assets/134050204/df08bada-98d6-4f88-92a6-045885b56959)
+![RTL(Full subtractor)](https://github.com/Anuranjana23/Subtractor/assets/134050204/83dc89bb-b9df-4ba5-8b12-755b2ee9b61e)
 
 
 
 
 ## Timing Diagram:
-![Timing diagram(Half subtractor)](https://github.com/Anuranjana23/Subtractor/assets/134050204/8746c88c-252b-4097-be71-49676bbe68f4)
-![Timing diagram(Full subtractor)](https://github.com/Anuranjana23/Subtractor/assets/134050204/b3902a22-bbdc-4b86-a2eb-145e9bb7edc6)
+![Timing diagram(Half subtractor)](https://github.com/Anuranjana23/Subtractor/assets/134050204/b0b6af80-ec64-4945-8c7e-579ab9669cdd)
+![Timing diagram(Full subtractor)](https://github.com/Anuranjana23/Subtractor/assets/134050204/31e8cc74-0e54-4f83-afd6-d4d09ec7b55f)
+
 
 ## Result:
 Thus the half subtractor and full subtractor circuits are designed and the truth tables are verified using Verilog HDL.
